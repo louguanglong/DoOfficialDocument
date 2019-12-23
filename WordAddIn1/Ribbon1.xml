@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="lou" label="公文处理">
+        <group id="MyGroup"
+               label="快速格式">
+          <button id="btn1" label="住保落款" size="large"  imageMso="TextEffects3DRotationGallery" onAction="ZBName"/>
+          <button id="btn2" label="住建落款" size="large" imageMso="FormControlLabel" onAction="ZJName"/>
+          <button id="btn3" label="标题设置" size="large" imageMso="TextDirection" onAction="wTitle"/>
+          <button id="btn4" label="题目设置" size="large" imageMso="SharingOpenWssContactList" onAction="jiben"/>
+          <button id="btn5" label="批量删空段落" size="large" imageMso="Delete" onAction="DelPar"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
